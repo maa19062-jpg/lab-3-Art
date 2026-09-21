@@ -1,0 +1,23 @@
+22 ?- father(ali, ahmad).
+true.
+
+23 ?- father(fatima, ahmad).
+false.
+
+24 ?- mother(fatima, sara).
+true.
+
+25 ?- mother(ali, sara).
+false.
+
+26 ?- sister(sara, ahmad).
+true .
+
+27 ?- sister(sara, sara).
+false.
+
+28 ?- brother(khalid, ahmad).
+true .
+
+29 ?- brother(ahmad, ahmad).
+false.
